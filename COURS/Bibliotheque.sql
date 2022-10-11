@@ -410,3 +410,20 @@ LEFT JOIN association_vehicule_conducteur a
 ON v.id_vehicule = a.id_vehicule
 LEFT JOIN conducteur c
 ON c.id_conducteur = a.id_conducteur;
+
+--10/ Afficher tous les conducteurs et tous les vehicules peut importe les correspondances (UNION)
+
+SELECT v.modele, c.prenom
+FROM conducteur c
+LEFT JOIN association_vehicule_conducteur a
+ON c.id_conducteur = a.id_conducteur
+LEFT JOIN vehicule v
+ON v.id_vehicule = a.id_vehicule;
+UNION
+SELECT v.modele, c.prenom
+FROM vehicule v
+LEFT JOIN association_vehicule_conducteur a
+ON v.id_vehicule = a.id_vehicule
+LEFT JOIN conducteur c
+ON c.id_conducteur = a.id_conducteur;
+
