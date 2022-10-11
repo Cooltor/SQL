@@ -291,10 +291,13 @@ CREATE TEMPORARY TABLE embauche AS
         AND '2013-12-31';
 
 
---- LES TRANSACTIONS
+
+
+-------- LES TRANSACTIONS
 
 -- Une transaction permet de passer ma bdd d'un état cohérent à un état cohérent
--- 
+-- C'est à dire spoit la transaction est validée par COMMIT soit elle est annulée par ROLLBACK
+
 
 
 START TRANSACTION;
@@ -302,10 +305,41 @@ UPDATE employes set salaire = 100;
 UPDATE employes SET salaire = 50;
 ROLLBACK;
 
+START TRANSACTION; -- démarre une transaction
+SELECT * FROM employes; -- mes requetes 
+UPDATE employes SET salaire = salaire+1000;
+UPDATE employes SET prenom = 'Audrey' WHERE id_employes = 388;
+SELECT * FROM employes;
+ROLLBACK; -- termine et annule la transaction
+
+COMMIT; -- termine et valide la transaction
 
 
 
+--------- TRANSACTION AVEC SAVEPOINT
 
+
+START TRANSACTION;
+    SELECT * FROM employes;
+    SAVEPOINT point1;
+
+    UPDATE employes SET salaire = 2500 WHERE id_employes = 388;
+    SELECT * FROM employes;
+    SAVEPOINT point2;
+
+    UPDATE employes SET prenom = 'Julien' WHERE id_employes = 388;
+    SELECT * FROM employes;
+    SAVEPOINT point3;
+
+    UPDATE employes SET salaire = 5000 WHERE id_employes = 388;
+    SELECT * FROM employes;
+    SAVEPOINT point4;
+
+    UPDATE employes SET salaire = 5000 WHERE id_employes = 388;
+    SELECT * FROM employes;
+    SAVEPOINT point5;
+
+    ROLLBACK to point3;
 
 
 
