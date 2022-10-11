@@ -359,4 +359,54 @@ START TRANSACTION;
 
 0, n ==> de 0 à n 
 
+EXERCICES :
 
+
+
+
+-- 6/    Qui conduit la voiture 503 ?
+
+SELECT c.prenom
+FROM conducteur c
+INNER JOIN association_vehicule_conducteur a
+ON c.id_conducteur = a.id_conducteur
+AND id_vehicule = 503;
+
+--OU
+
+SELECT prenom
+FROM conducteur c , association_vehicule_conducteur a 
+WHERE a.id_vehicule = 503
+AND a.id_conducteur = c.id_conducteur;
+
+-- 7/    Qui conduit quoi ?
+
+SELECT v.modele, c.prenom
+FROM conducteur c
+INNER JOIN association_vehicule_conducteur a
+INNER JOIN vehicule v
+ON v.id_vehicule = a.id_vehicule
+AND c.id_conducteur = a.id_conducteur;
+
+
+-- 8/    Ajoutez vous dans la liste des conducteurs.
+INSERT INTO(nom, prenom) VALUES('D', 'Romain');
+-- 8/    Afficher les conducteurs (meme ceux qui n'ont pas de correspondance avec les vehicules)
+
+SELECT v.modele, c.prenom
+FROM conducteur c
+LEFT JOIN association_vehicule_conducteur a
+ON c.id_conducteur = a.id_conducteur
+LEFT JOIN vehicule v
+ON v.id_vehicule = a.id_vehicule;
+
+
+-- 9/    Ajoutez un nouvel enregistrement dans la table des véhicules.
+INSERT INTO (marque, modele, couleur, immatriculation) VALUES('Nissan', 'Qashqai', 'blanc', 'DS-622-NY');
+
+SELECT v.modele, c.prenom
+FROM vehicule v
+LEFT JOIN association_vehicule_conducteur a
+ON v.id_vehicule = a.id_vehicule
+LEFT JOIN conducteur c
+ON c.id_conducteur = a.id_conducteur;
