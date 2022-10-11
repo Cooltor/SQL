@@ -105,3 +105,10 @@ Exemple : conducteur 58 avec le véhicule 900 (car ils n’existent pas). Faites
 -- | NULL    | Alex     |
 -- | Octavia | NULL     |
 -- +---------+----------+
+
+
+Solution des restrictions :
+
+![Restriction sql](https://user-images.githubusercontent.com/110043081/195116814-aeb511dd-3fd4-4e48-8537-4e6e0186a2fe.png)
+
+
