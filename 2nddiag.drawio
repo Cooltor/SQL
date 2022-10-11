@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T13:54:23.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="y4PIGzr6NnuXvcQegH7r" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T14:00:33.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GuIEv2_ocoFcVBve0D3x" version="20.4.0" type="github">
   <diagram id="rXGdTFnwOXh6O6qmDT12" name="Page-1">
     <mxGraphModel dx="1422" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,16 +22,16 @@
         <mxCell id="ltqqr3VrsOdMrt5kDbMS-7" value="association_vehicule_conducteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="299" y="480" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ltqqr3VrsOdMrt5kDbMS-12" value="est conduit par" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-12" value="peut conduire" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="190" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ltqqr3VrsOdMrt5kDbMS-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.008;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ltqqr3VrsOdMrt5kDbMS-12" target="ltqqr3VrsOdMrt5kDbMS-2">
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-13" value="0,n&lt;br&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ltqqr3VrsOdMrt5kDbMS-2" target="ltqqr3VrsOdMrt5kDbMS-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="440" as="sourcePoint" />
             <mxPoint x="490" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ltqqr3VrsOdMrt5kDbMS-14" value="1,n" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-13">
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-14" value="0,n" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rotation=0;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ltqqr3VrsOdMrt5kDbMS-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ltqqr3VrsOdMrt5kDbMS-4" target="ltqqr3VrsOdMrt5kDbMS-12">
@@ -40,7 +40,28 @@
             <mxPoint x="490" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ltqqr3VrsOdMrt5kDbMS-18" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-17">
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-18" value="0,n" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-21" value="concerne" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ltqqr3VrsOdMrt5kDbMS-4" target="ltqqr3VrsOdMrt5kDbMS-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="380" as="sourcePoint" />
+            <mxPoint x="750" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-23" value="1,n" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ltqqr3VrsOdMrt5kDbMS-21" target="ltqqr3VrsOdMrt5kDbMS-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="560" as="sourcePoint" />
+            <mxPoint x="710" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-25" value="1,n" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
