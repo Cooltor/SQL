@@ -1,26 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T07:58:25.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U_gZxxvV9gOukFytfNKH" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T08:21:22.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7acVU4CP66cH4R1OORem" version="20.4.0" type="github">
   <diagram id="De7Ffgxd1gm88dtqFJdc" name="Page-1">
-    <mxGraphModel dx="1133" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="893" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qRwrazra5Gr0seM4BbA9-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_véhicule&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;marque&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;modele&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;type&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-76" y="118" width="160" height="255" as="geometry" />
+        <mxCell id="qRwrazra5Gr0seM4BbA9-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_véhicule&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;marque&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;modele&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;type&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="19" y="174" width="160" height="255" as="geometry" />
         </mxCell>
         <mxCell id="qRwrazra5Gr0seM4BbA9-2" value="Vehicule" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-76" y="118" width="160" height="80" as="geometry" />
+          <mxGeometry x="19" y="174" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qRwrazra5Gr0seM4BbA9-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_conducteur&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;prenom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;matricule&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;" vertex="1" parent="1">
-          <mxGeometry x="348" y="118" width="160" height="255" as="geometry" />
+        <mxCell id="qRwrazra5Gr0seM4BbA9-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_conducteur&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;prenom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;matricule&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="931" y="174" width="160" height="255" as="geometry" />
         </mxCell>
         <mxCell id="qRwrazra5Gr0seM4BbA9-4" value="&lt;b&gt;Conducteur&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="348" y="118" width="160" height="80" as="geometry" />
+          <mxGeometry x="931" y="174" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qRwrazra5Gr0seM4BbA9-5" value="id_deplacement&lt;br&gt;id_conducteur&lt;br&gt;id_vehicule&lt;br&gt;lieu_deplacement" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;" vertex="1" parent="1">
-          <mxGeometry x="168" y="548" width="160" height="255" as="geometry" />
+        <mxCell id="qRwrazra5Gr0seM4BbA9-5" value="id_deplacement&lt;br&gt;id_conducteur&lt;br&gt;id_vehicule&lt;br&gt;lieu_deplacement" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="471" y="624" width="160" height="255" as="geometry" />
         </mxCell>
         <mxCell id="qRwrazra5Gr0seM4BbA9-6" value="&lt;b&gt;Deplacement&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="168" y="548" width="160" height="80" as="geometry" />
+          <mxGeometry x="471" y="624" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qRwrazra5Gr0seM4BbA9-8" value="est conduit par" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="478" y="307" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qRwrazra5Gr0seM4BbA9-9" value="1,n" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#A8DADC;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.994;exitY=0.71;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qRwrazra5Gr0seM4BbA9-1" target="qRwrazra5Gr0seM4BbA9-8">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="232" y="353" as="sourcePoint" />
+            <mxPoint x="381" y="356.5" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRwrazra5Gr0seM4BbA9-10" value="label" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeColor=#457B9D;fontColor=#1D3557;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fillColor=#A8DADC;curved=1;entryX=0;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qRwrazra5Gr0seM4BbA9-8" target="qRwrazra5Gr0seM4BbA9-3">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="714" y="356.5" as="sourcePoint" />
+            <mxPoint x="834" y="356.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="792" y="356.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRwrazra5Gr0seM4BbA9-11" value="Text" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="739" y="497" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qRwrazra5Gr0seM4BbA9-12" value="Text" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="739" y="497" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
