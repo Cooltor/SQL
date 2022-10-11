@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T07:54:26.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_tFhWsGspwWVC2TYUzC_" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T07:58:25.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U_gZxxvV9gOukFytfNKH" version="20.4.0" type="github">
   <diagram id="De7Ffgxd1gm88dtqFJdc" name="Page-1">
     <mxGraphModel dx="1133" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qRwrazra5Gr0seM4BbA9-1" value="id_véhicule&lt;br&gt;marque&lt;br&gt;modele&lt;br&gt;type" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="-76" y="118" width="160" height="320" as="geometry" />
+        <mxCell id="qRwrazra5Gr0seM4BbA9-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_véhicule&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;marque&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;modele&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;type&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="118" width="160" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="qRwrazra5Gr0seM4BbA9-2" value="Vehicule" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="qRwrazra5Gr0seM4BbA9-2" value="Vehicule" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-76" y="118" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qRwrazra5Gr0seM4BbA9-3" value="id_conducteur&lt;br&gt;nom&lt;br&gt;prenom&lt;br&gt;matricule&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="348" y="118" width="160" height="320" as="geometry" />
+        <mxCell id="qRwrazra5Gr0seM4BbA9-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;id_conducteur&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;prenom&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;matricule&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;" vertex="1" parent="1">
+          <mxGeometry x="348" y="118" width="160" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="qRwrazra5Gr0seM4BbA9-4" value="Conducteur" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="qRwrazra5Gr0seM4BbA9-4" value="&lt;b&gt;Conducteur&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="348" y="118" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qRwrazra5Gr0seM4BbA9-5" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="168" y="548" width="160" height="320" as="geometry" />
+        <mxCell id="qRwrazra5Gr0seM4BbA9-5" value="id_deplacement&lt;br&gt;id_conducteur&lt;br&gt;id_vehicule&lt;br&gt;lieu_deplacement" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;align=left;" vertex="1" parent="1">
+          <mxGeometry x="168" y="548" width="160" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="qRwrazra5Gr0seM4BbA9-6" value="Deplacement" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="qRwrazra5Gr0seM4BbA9-6" value="&lt;b&gt;Deplacement&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="168" y="548" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
