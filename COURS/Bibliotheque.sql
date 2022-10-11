@@ -343,3 +343,20 @@ START TRANSACTION;
 
 
 
+
+-----DIAGRAMME
+
+
+0 1 et n 
+
+
+
+0,1 ===> au plus 1
+
+1,1 ==> au moins 1 et au plus 1
+
+1, n ==> au moins 1 et au plus n 
+
+0, n ==> de 0 à n 
+
+
