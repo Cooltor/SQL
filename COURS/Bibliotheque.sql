@@ -402,7 +402,7 @@ ON v.id_vehicule = a.id_vehicule;
 
 
 -- 9/    Ajoutez un nouvel enregistrement dans la table des véhicules.
-INSERT INTO (marque, modele, couleur, immatriculation) VALUES('Nissan', 'Qashqai', 'blanc', 'DS-622-NY');
+INSERT INTO vehicule(id_vehicule,marque,modele,couleur,immatriculation) VALUES(507,'Nissan', 'Qashqai', 'blanc', 'DS-622-NY');
 
 SELECT v.modele, c.prenom
 FROM vehicule v
