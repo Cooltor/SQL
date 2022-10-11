@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2022-10-11T11:41:11.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0Ekm0vIxVdiZZ2tg-Mjo" version="20.4.0" type="github">
+  <diagram id="rXGdTFnwOXh6O6qmDT12" name="Page-1">
+    <mxGraphModel dx="1422" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-2" value="id_conducteur&lt;br&gt;prenom&lt;br&gt;nom" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-3" value="conducteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-4" value="id_vehicule&lt;br&gt;marque&lt;br&gt;modele&lt;br&gt;couleur&lt;br&gt;immatriculation&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="120" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-5" value="vehicule" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-6" value="id_association&lt;br&gt;id_vehicule&lt;br&gt;id_conducteur" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="299" y="480" width="230" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-7" value="association_vehicule_conducteur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="480" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-12" value="est conduit par" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.008;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ltqqr3VrsOdMrt5kDbMS-12" target="ltqqr3VrsOdMrt5kDbMS-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="440" as="sourcePoint" />
+            <mxPoint x="490" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-14" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-15" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-13">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-16" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-13">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ltqqr3VrsOdMrt5kDbMS-4" target="ltqqr3VrsOdMrt5kDbMS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="440" as="sourcePoint" />
+            <mxPoint x="490" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-18" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-19" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-17">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ltqqr3VrsOdMrt5kDbMS-20" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="ltqqr3VrsOdMrt5kDbMS-17">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
